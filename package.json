@@ -1,25 +1,20 @@
 {
-  "name": "learn-tdd-with-tape",
+  "name": "ex4-personal",
   "version": "1.0.0",
-  "description": "Tdd exercise",
+  "description": "",
   "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
-    "test": "tape ./test/*.test.js"
+ "test" : "tape ./test/*.test.js"  
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jce-il/learn-tdd-with-tape"
-  },
-  "keywords": [
-    "tdd",
-    "tape",
-    "tutorial"
-  ],
-  "license": "MIT",
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
     "browserify": "^16.2.2",
     "istanbul": "^0.4.5",
-    "tape": "^4.9.1",
+    "tape": "^4.9.0",
     "testling": "^1.7.1"
   }
 }
